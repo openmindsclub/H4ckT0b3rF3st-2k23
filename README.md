@@ -1,4 +1,4 @@
-## ![logo](https://www.pixenli.com/image/D8IcXWhb) OpenMinds Club is joining Hacktoberfest 2021!![logo](https://www.pixenli.com/image/D8IcXWhb)
+## ![logo](https://www.pixenli.com/image/D8IcXWhb) OpenMinds Club is joining Hacktoberfest 2023!![logo](https://www.pixenli.com/image/D8IcXWhb)
 
 ![Event logo](https://github.com/ossamamehmood/hacktoberfest/raw/main/.github/logo.png)
 
