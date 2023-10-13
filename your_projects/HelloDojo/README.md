@@ -30,6 +30,9 @@ In this section, I will just give you a quick setup, I highly recommand reading 
 
 ## Installing the requirements
 1. **Install Scarb**
+    **Very important note: using the latest version of scrab will cause some issues with your code**
+    - so u need to use asdf to install v0.6.0 in order to solve this issues, you can simply do that by clicking [here](https://docs.swmansion.com/scarb/).
+    
     - First you need to have Scarb, Scarb is Cairo Package Manger it's heavily inspired by cargo so you get the idea (I hope XD), you can simply install it by running `curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh`
 
     - Scarb will set up everything you will need to run your project, If you will use vscode make sure to go to your settings > search for cairo > and enable Scarb 
