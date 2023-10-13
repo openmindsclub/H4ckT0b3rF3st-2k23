@@ -16,6 +16,40 @@
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&style=flat-square&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fdojoengine
 [tg-url]: https://t.me/dojoengine
 
+
+# Hello Dojo : an Onchain Game
+In this project, I tried to create an on-chain game, which means that the entire game logic, assets, and interactions are decentralized and stored on a **blockchain**. This approach offers transparency, security, and unique ownership of in-game items or assets, ultimately revolutionizing how we play and experience games in the digital world.
+
+## Basic Overview
+We will be using **Dojo Game Engine**, Dojo is a provable game engine and toolchain for building onchain games and autonomous worlds. Dojo 
+
+---
+
+# How To Start
+In this section, I will just give you a quick setup, I highly recommand reading the official documentations, you will find it at the last section of this ReadMe file.
+
+## Installing the requirements
+1. **Install Scarb**
+    - First you need to have Scarb, Scarb is Cairo Package Manger it's heavily inspired by cargo so you get the idea (I hope XD), you can simply install it by running `curl --proto '=https' --tlsv1.2 -sSf https://docs.swmansion.com/scarb/install.sh | sh`
+
+    - Scarb will set up everything you will need to run your project, If you will use vscode make sure to go to your settings > search for cairo > and enable Scarb 
+
+    - If you have any errors like 
+    ```
+    error: compiler plugin could not be loaded `dojo_plugin v0.3.0-rc8 (git+https://github.com/dojoengine/dojo)
+    ```
+
+    you can simply run `dojoup -v 0.2.3` and replace the old dependecies in `Scrab.toml` with 
+    ```
+    [dependencies]
+    dojo = { git = "https://github.com/dojoengine/dojo.git", tag = "v0.2.3" }
+    ```
+
+## Conclusion
+I think I mentioned everything you need to know before starting working on this project, now you can jump to the next section and start working on **Hello Dojo** ! 
+
+---
+
 # Dojo Starter: Official Guide
 
 The official Dojo Starter guide, the quickest and most streamlined way to get your Dojo Autonomous World up and running. This guide will assist you with the initial setup, from cloning the repository to deploying your world.
