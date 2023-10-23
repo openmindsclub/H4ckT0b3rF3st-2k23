@@ -41,3 +41,29 @@ canvas {
 #again {
   color: yellowgreen;
 }
+.timer{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 5px 0;
+  border: solid 5px #008080;
+  padding: 10px 20px;
+  width: max-content;
+  border-radius: 5%;
+  color: rgba(41, 8, 150, 0.953) ;
+}
+.blocks{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.block{
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background-color: red;
+}
