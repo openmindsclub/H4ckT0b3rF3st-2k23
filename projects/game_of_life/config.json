@@ -1,6 +1,6 @@
 {
     "screen_size_width":1200,
-    "screen_size_height":800,
+    "screen_size_height":600,
     "background_color":"darkslategray",
     "cell_color":"tomato",
     "cell_size_width":12,
